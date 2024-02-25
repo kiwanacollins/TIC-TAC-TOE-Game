@@ -1,0 +1,176 @@
+body {
+    background: linear-gradient(to right, #865dc4, #cb40a8);
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.main {
+    margin-top: 1px;
+    border: none;
+    height: 100vh;
+   
+}
+
+.one, .two, .three {
+    display: flex;
+  
+}
+.baby {
+    border: 2px solid rgb(0, 0, 0, 0.6);
+    padding: 15px;
+    font-size: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 20px;
+    height: 30px;
+    font-weight: 600;
+    opacity: 0.8;
+}
+.baby:hover {
+    cursor: pointer;
+    color: rgb(253, 255, 250);
+}
+.left-1 {
+    border-left: none;
+    border-top: none;
+}
+.middle-top {
+    border-top: none;
+}
+.right-1 {
+    border-top: none;
+    border-right: none;
+}
+.left-2 {
+    border-left: none;
+}
+.right-2 {
+    border-right: none;
+}
+.buttom-left {
+    border-left: none;
+    border-bottom: none;
+}
+.buttom-middle {
+    border-bottom: none;
+}
+.buttom-right {
+    border-bottom: none;
+    border-right: none;
+}
+.button {
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    color: rgb(253, 255, 250);
+    text-shadow: 0 0 10px rgba(41, 247, 0, 0.9);
+}
+#reset {
+    background-color: rgb(219, 14, 14);
+    color: white;
+    font-size: 20px;
+    margin-top: 60px;
+    font-weight: 600;
+    font-size: 20px;
+    opacity: 0.9;
+    text-align: center;
+    padding-bottom: 7px;
+    padding-top: 6px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    width: 70px;
+    margin: 0 auto;
+}
+#reset:hover {
+    background-color: rgb(255, 0, 0);
+    box-shadow: 0 0 10px 0 rgba(242, 242, 242, 0.9);
+    color: rgb(29, 4, 4);
+    text-shadow: 0 0 10px rgba(41, 247, 0, 0.9);
+
+}
+.main2 {
+    margin-bottom: 30px;
+    
+  
+} 
+.scores {
+    box-shadow: inset 0 0 10px rgb(0, 0, 0, 0.2);
+    border-radius: 5px;
+    font-size: 20px;
+    display: flex;
+    gap: 20px;
+    padding: 4px;
+    margin-bottom: 30px;
+    text-shadow: 0 0 10px rgba(16, 19, 16, 0.4);
+    padding-right: 2px;
+    padding-left: 2px;
+}
+h3 {
+    text-align: center;
+    margin-bottom: 1px;
+    margin-top: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-shadow: 0 0 10px rgba(16, 19, 16, 0.4);
+    color: white;
+    border-radius: 10px;
+}
+.all-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+footer {
+    text-align: center;
+    color: rgb(181, 207, 192);
+    background: linear-gradient(to right, #46375e, #8d3377);
+    font-size: 13px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;     
+    color: rgb(207, 243, 222);
+    text-shadow: 0 0 10px rgba(16, 19, 16, 0.4);
+    margin-bottom: 0px;
+    background: linear-gradient(to right, #46375e, #8d3377);
+    width: 100%; 
+}
+
+#owner {
+    color: #cf97c1;
+    
+}
+#game-name {
+    color: rgb(141, 224, 169);
+    font-size: 10px;
+}
+
+.fireworks {
+    position: absolute;
+    top: 30px;
+    display: none;
+    width: 5px;
+    height: 20px;
+    background: rgb(12, 12, 12);
+    border-radius: 7px;
+    animation: explode 1s ease-out infinite;
+}
+
+@keyframes explode {
+    from {
+        width: 5px;
+        height: 30px;
+        opacity: 0.6;
+    }
+    to {
+        width: 96px;
+        height: 30px;
+        opacity: 0.1;
+    }
+}
